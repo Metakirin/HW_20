@@ -9,7 +9,9 @@ export class Main extends React.Component {
     const nav = this.props.data.map((item) => {
       return (
         <li>
-          <a href="#">{item.content}</a>
+          <a href={item.link} target="_blank">
+            {item.content}
+          </a>
         </li>
       );
     });

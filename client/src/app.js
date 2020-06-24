@@ -8,9 +8,9 @@ import { Main } from "./components/main/Main";
 import { Footer } from "./components/footer/Footer";
 
 const data = [
-  { content: "https://ru.reactjs.org/" },
-  { content: "https://parceljs.org/" },
-  { content: "https://bootstrap-4.ru/" },
+  { content: "React", link: "https://ru.reactjs.org/" },
+  { content: "Parcel", link: "https://parceljs.org/" },
+  { content: "Bootstrap", link: "https://bootstrap-4.ru/" },
 ];
 
 const data2 = [{ content: "inst" }, { content: "vk" }, { content: "facebook" }];
