@@ -1,0 +1,13 @@
+.header {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: rgb(228, 203, 203);
+  color: rgb(170, 122, 218);
+}
+
+.header p:hover {
+  color: rgb(106, 34, 177);
+}
